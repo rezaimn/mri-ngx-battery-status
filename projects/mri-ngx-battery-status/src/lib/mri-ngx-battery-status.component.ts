@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'lib-mri-ngx-battery-status',
+  selector: 'mri-ngx-battery-status',
   templateUrl: './mri-ngx-battery-status.component.html',
   styleUrls: ['./mri-ngx-battery-status.component.css']
 })
@@ -75,7 +75,7 @@ export class MriNgxBatteryStatusComponent implements OnInit {
   getHeadStyle() {
     return {
       height: `${this.height / 2}px`,
-      width: `${this.width / 10}px`,
+      width: `${this.width / 12}px`,
       border: `${this.borderThickness}px solid ${this.batteryBorderColor}`,
       background: `${this.batteryBorderColor}`,
       borderRadius: `${(this.borderRadius >= 0 ? this.borderRadius : (this.height / 5))}px`,
@@ -83,8 +83,7 @@ export class MriNgxBatteryStatusComponent implements OnInit {
       marginLeft: `-${this.borderThickness}px`,
       borderBottomLeftRadius: 0,
       borderTopLeftRadius: 0,
-      position: 'absolute',
-      top: `${(this.height / 4) + (this.borderThickness * 8)}px`
+      verticalAlign: 'middle'
     };
   }
   /**

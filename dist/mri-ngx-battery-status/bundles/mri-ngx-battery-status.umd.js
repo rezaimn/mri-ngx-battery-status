@@ -116,7 +116,7 @@
         function () {
             return {
                 height: this.height / 2 + "px",
-                width: this.width / 10 + "px",
+                width: this.width / 12 + "px",
                 border: this.borderThickness + "px solid " + this.batteryBorderColor,
                 background: "" + this.batteryBorderColor,
                 borderRadius: (this.borderRadius >= 0 ? this.borderRadius : (this.height / 5)) + "px",
@@ -124,8 +124,7 @@
                 marginLeft: "-" + this.borderThickness + "px",
                 borderBottomLeftRadius: 0,
                 borderTopLeftRadius: 0,
-                position: 'absolute',
-                top: (this.height / 4) + (this.borderThickness * 8) + "px"
+                verticalAlign: 'middle'
             };
         };
         /**
@@ -171,7 +170,7 @@
         };
         MriNgxBatteryStatusComponent.decorators = [
             { type: core.Component, args: [{
-                        selector: 'lib-mri-ngx-battery-status',
+                        selector: 'mri-ngx-battery-status',
                         template: "<div style=\"width: fit-content\">\n  <span [ngStyle]=\"getBodyStyle()\">\n    <div\n      [ngStyle]=\"getBatteryLevelStyle()\"\n      [ngClass]=\"{'battery-low': batteryLevel <= lowThreshold,'battery-mid':\n      batteryLevel > lowThreshold && batteryLevel < highThreshold,'battery-high':\n      batteryLevel >= highThreshold}\">\n      <span [ngStyle]=\"getBatteryTextStyle()\">\n        {{batteryLevel}} %\n      </span>\n    </div>\n  </span>\n  <span [ngStyle]=\"getHeadStyle()\"></span>\n</div>\n",
                         styles: [".battery-low{background-color:#ea2217}.battery-mid{background-color:#ffa108}.battery-high{background-color:#06cb18}"]
                     }] }

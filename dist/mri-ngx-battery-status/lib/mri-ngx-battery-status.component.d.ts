@@ -66,8 +66,7 @@ export declare class MriNgxBatteryStatusComponent implements OnInit {
         marginLeft: string;
         borderBottomLeftRadius: number;
         borderTopLeftRadius: number;
-        position: string;
-        top: string;
+        verticalAlign: string;
     };
     /**
      * set the battery level part styles
