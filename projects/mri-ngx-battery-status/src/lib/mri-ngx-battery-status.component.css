@@ -1,0 +1,11 @@
+
+.battery-low{
+  background-color: #ea2217;
+}
+.battery-mid{
+  background-color: #ffa108;
+}
+.battery-high{
+  background-color: #06cb18;
+}
+

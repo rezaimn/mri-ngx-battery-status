@@ -1,0 +1,21 @@
+{
+  "name": "mri-ngx-battery-status",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0"
+  },
+  "main": "bundles/mri-ngx-battery-status.umd.js",
+  "module": "fesm5/mri-ngx-battery-status.js",
+  "es2015": "fesm2015/mri-ngx-battery-status.js",
+  "esm5": "esm5/mri-ngx-battery-status.js",
+  "esm2015": "esm2015/mri-ngx-battery-status.js",
+  "fesm5": "fesm5/mri-ngx-battery-status.js",
+  "fesm2015": "fesm2015/mri-ngx-battery-status.js",
+  "typings": "mri-ngx-battery-status.d.ts",
+  "metadata": "mri-ngx-battery-status.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

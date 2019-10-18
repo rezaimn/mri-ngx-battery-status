@@ -1,0 +1,14 @@
+<div style="width: fit-content">
+  <span [ngStyle]="getBodyStyle()">
+    <div
+      [ngStyle]="getBatteryLevelStyle()"
+      [ngClass]="{'battery-low': batteryLevel <= lowThreshold,'battery-mid':
+      batteryLevel > lowThreshold && batteryLevel < highThreshold,'battery-high':
+      batteryLevel >= highThreshold}">
+      <span [ngStyle]="getBatteryTextStyle()">
+        {{batteryLevel}} %
+      </span>
+    </div>
+  </span>
+  <span [ngStyle]="getHeadStyle()"></span>
+</div>
