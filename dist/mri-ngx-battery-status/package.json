@@ -1,6 +1,6 @@
 {
   "name": "mri-ngx-battery-status",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^8.2.0",

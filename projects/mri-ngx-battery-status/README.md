@@ -10,7 +10,8 @@ This library src is available on [GitHub](https://github.com/rezaimn/mri-ngx-bat
 
 ## Quickstart
 Import mri-ngx-battery-status module in Angular app.
-     
+
+```sh 
      import {MriNgxBatteryStatusModule} from 'mri-ngx-battery-status';
 
      @NgModule({
@@ -20,9 +21,11 @@ Import mri-ngx-battery-status module in Angular app.
        ]
        (...)
      })
+```
 
 ##Usage
 
+```sh
      <mri-ngx-battery-status
              [height]="20"
              [width]="50"
@@ -35,7 +38,9 @@ Import mri-ngx-battery-status module in Angular app.
              [fontSize]="10"
              [textColor]="'#000000'">
      </mri-ngx-battery-status>
-     
+```
+
+##Guide
 
 | input | type | description |
 | ------ | ------ | ------ |

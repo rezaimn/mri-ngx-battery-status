@@ -5,14 +5,13 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 This library src is available on [GitHub](https://github.com/rezaimn/mri-ngx-battery-status).
 
 ## Installing
-```sh
+
      npm i mri-ngx-battery-status --save
-```
+
 ## Quickstart
 Import mri-ngx-battery-status module in Angular app.
 
-```sh
-
+```sh 
      import {MriNgxBatteryStatusModule} from 'mri-ngx-battery-status';
 
      @NgModule({
@@ -23,7 +22,9 @@ Import mri-ngx-battery-status module in Angular app.
        (...)
      })
 ```
+
 ##Usage
+
 ```sh
      <mri-ngx-battery-status
              [height]="20"
