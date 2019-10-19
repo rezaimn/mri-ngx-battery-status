@@ -4,6 +4,13 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 This library src is available on [GitHub](https://github.com/rezaimn/mri-ngx-battery-status).
 
+##Examples
+
+![alt text](green.png)
+![alt text](orange.png)
+![alt text](red.png)
+![alt text](radiusless.png)
+
 ## Installing
 
      npm i mri-ngx-battery-status --save

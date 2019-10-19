@@ -83,7 +83,8 @@ export class MriNgxBatteryStatusComponent implements OnInit {
       marginLeft: `-${this.borderThickness}px`,
       borderBottomLeftRadius: 0,
       borderTopLeftRadius: 0,
-      verticalAlign: 'middle'
+      verticalAlign: 'middle',
+      fontFamily: 'arial'
     };
   }
   /**
@@ -95,7 +96,8 @@ export class MriNgxBatteryStatusComponent implements OnInit {
       height: `${this.height - (this.borderThickness * 2)}px`,
       lineHeight: `${this.height - (this.borderThickness * 2)}px`,
       marginLeft: `${this.borderThickness}px`,
-      marginTop: `${this.borderThickness}px`
+      marginTop: `${this.borderThickness}px`,
+      borderRadius: `${(this.borderRadius >= 0 ? this.borderRadius / 2 : (this.height / 5) / 2)}px`,
     };
   }
   /**
