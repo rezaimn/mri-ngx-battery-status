@@ -11,6 +11,7 @@ This library src is available on [GitHub](https://github.com/rezaimn/mri-ngx-bat
 ![alt text](red.png)
 ![alt text](radiusless.png)
 
+
 ## Installing
 
      npm i mri-ngx-battery-status --save

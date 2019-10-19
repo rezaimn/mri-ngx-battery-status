@@ -124,7 +124,8 @@
                 marginLeft: "-" + this.borderThickness + "px",
                 borderBottomLeftRadius: 0,
                 borderTopLeftRadius: 0,
-                verticalAlign: 'middle'
+                verticalAlign: 'middle',
+                fontFamily: 'arial'
             };
         };
         /**
@@ -144,7 +145,8 @@
                 height: this.height - (this.borderThickness * 2) + "px",
                 lineHeight: this.height - (this.borderThickness * 2) + "px",
                 marginLeft: this.borderThickness + "px",
-                marginTop: this.borderThickness + "px"
+                marginTop: this.borderThickness + "px",
+                borderRadius: (this.borderRadius >= 0 ? this.borderRadius / 2 : (this.height / 5) / 2) + "px",
             };
         };
         /**
@@ -172,7 +174,7 @@
             { type: core.Component, args: [{
                         selector: 'mri-ngx-battery-status',
                         template: "<div style=\"width: fit-content\">\n  <span [ngStyle]=\"getBodyStyle()\">\n    <div\n      [ngStyle]=\"getBatteryLevelStyle()\"\n      [ngClass]=\"{'battery-low': batteryLevel <= lowThreshold,'battery-mid':\n      batteryLevel > lowThreshold && batteryLevel < highThreshold,'battery-high':\n      batteryLevel >= highThreshold}\">\n      <span [ngStyle]=\"getBatteryTextStyle()\">\n        {{batteryLevel}} %\n      </span>\n    </div>\n  </span>\n  <span [ngStyle]=\"getHeadStyle()\"></span>\n</div>\n",
-                        styles: [".battery-low{background-color:#ea2217}.battery-mid{background-color:#ffa108}.battery-high{background-color:#06cb18}"]
+                        styles: [".battery-low{background-color:#ea2217}.battery-mid{background-color:#ff9b11}.battery-high{background-color:#06cb18}"]
                     }] }
         ];
         /** @nocollapse */
