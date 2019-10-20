@@ -4,7 +4,8 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 This library src is available on [GitHub](https://github.com/rezaimn/mri-ngx-battery-status).
 
-##Examples
+## Design your own battery for IOT projects in Angular, Ionic and NativeScript
+## Examples
 
 ![alt text](green.png)
 ![alt text](orange.png)
@@ -17,6 +18,7 @@ This library src is available on [GitHub](https://github.com/rezaimn/mri-ngx-bat
      npm i mri-ngx-battery-status --save
 
 ## Quickstart
+
 Import mri-ngx-battery-status module in Angular app.
 
 ```sh 
@@ -62,22 +64,3 @@ Import mri-ngx-battery-status module in Angular app.
 | borderThickness | number | it sets the battery border thickness
 | fontSize | number | it sets the battery level text font size
 | textColor | string | it sets battery level text color
-
-Run `ng generate component component-name --project mri-ngx-battery-status` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project mri-ngx-battery-status`.
-> Note: Don't forget to add `--project mri-ngx-battery-status` or else it will be added to the default project in your `angular.json` file. 
-
-## Build
-
-Run `ng build mri-ngx-battery-status` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build mri-ngx-battery-status`, go to the dist folder `cd dist/mri-ngx-battery-status` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test mri-ngx-battery-status` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
